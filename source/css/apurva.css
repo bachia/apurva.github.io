@@ -423,8 +423,16 @@ section.stay-tuned {
 .weAreHiringAccordion .card-header .card-link {
   padding: 0.5rem 0;
 }
+.weAreHiringAccordion .collapsed .introTitle h2 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+}
+
 .weAreHiringAccordion .introTitle h2 {
   font-size: 1.2rem;
+  color: #9fffac;
+  font-weight: 600;
 }
 
 .about-img-small {
@@ -1441,11 +1449,6 @@ canvas {
     color: #c4c4c4;
     font-weight: 300;
     transition: all 0.3s ease;
-  }
-
-  .weAreHiringAccordion .introTitle h2 {
-    color: #9fffac;
-    font-weight: 600;
   }
 
   #js-rotating_prospective,

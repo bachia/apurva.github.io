@@ -290,14 +290,7 @@ function subScribe() {
 
   if (!emailPattern.test(formData)) {
     proceed = "false";
-    /*  $('#subscribe-input').blur(function() {
-      let subResult = document.querySelector('#subscribe-result');
-      if ($(this).val() != '') {      
-        subResult.style.display = "none";
-      } else{
-        subResult.style.display = "block";
-      }
-   }); */
+
     const emptyDiv =
       '<div style="color: red";>Please enter valid email address</div>';
     $("#subscribe-result").html(emptyDiv);
@@ -309,7 +302,7 @@ function subScribe() {
     $(".subscribe-button-spinner").prop("hidden", false);
     $(".subscribe-button-spinner").show();
     $.ajax({
-      url: "https://apurva-subscription-nmn5wq3nzq-em.a.run.app ",
+      url: "https://apurva-subscription-hawt6l52da-el.a.run.app",
       type: "POST",
       contentType: "application/json",
       data: JSON.stringify({ email: formData }),
