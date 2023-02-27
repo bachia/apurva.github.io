@@ -207,7 +207,7 @@ function sendEmail() {
     }
     //data to be sent to server
     $.ajax({
-      url: "https://apurva-early-access-nmn5wq3nzq-em.a.run.app",
+      url: "https://apurva-early-access-register-hawt6l52da-el.a.run.app",
       type: "POST",
       contentType: "application/json",
       data: JSON.stringify(requestData),
